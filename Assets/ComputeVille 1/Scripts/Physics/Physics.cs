@@ -121,6 +121,7 @@ public class Physics : MonoBehaviour {
     AssignTransform( transform );
     shader.SetFloat("_Time", Time.time);
     shader.SetFloat("_Delta", Time.deltaTime);
+    shader.SetFloat("_DT", Time.deltaTime);
     shader.SetInt("_Count", buffer.count );
     shader.SetBuffer(kernel, "vertBuffer" , buffer._buffer );
     SetShaderValues();

@@ -11,15 +11,15 @@ public class MeshAnchorParticleBuffer : ParticleBuffer {
   struct Particle{
     public Vector3 pos;
     public Vector3 vel;
-    public float id;    // particle id
-    public float life;  // lifetime of particle
-    public float cap;   // connection information
-    public Vector3 debug; //
+    public Vector3 nor;
+    public Vector2 uv;
+    public float debug;
   }
 
   public override void SetCount(){
     print("whats up");
-    count = mesh.count;
+    mesh = GetComponent<MeshVertBuffer>();
+    count = mesh.count;//mesh.count;
   }
 
 }

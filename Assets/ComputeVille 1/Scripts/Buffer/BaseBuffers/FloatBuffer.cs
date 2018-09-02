@@ -10,9 +10,6 @@ public class FloatBuffer : Buffer {
 
   public override void CreateBuffer(){
     MakeValueArray();
-    print("buffer created : " + gameObject.name );
-    print( structSize );
-    print( count  );
     _buffer = new ComputeBuffer( count , sizeof(float) * structSize );
   }
 

@@ -1,0 +1,20 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 14 at AnchorParticle.compute(92): signed/unsigned mismatch, unsigned assumed
+  api=14 insize=2155 outsize=2745 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2745 outsize=3541 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: translateComputeKernel
+  api=14 insize=3385 outsize=4873 ok=1
+
+Quitting shader compiler process

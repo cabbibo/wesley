@@ -1,0 +1,65 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=14 insize=5703 outsize=6081 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=2377 outsize=3125 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: translateComputeKernel
+  api=14 insize=2301 outsize=3017 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 14 at AnchorParticle.compute(69): signed/unsigned mismatch, unsigned assumed
+  error: 2 plat 14 at AnchorParticle.compute(85): invalid subscript 'nor'
+  api=14 insize=1595 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 2 plat 14 at AnchorParticle.compute(75): invalid subscript 'length'
+  api=14 insize=2049 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 1 plat 14 at AnchorParticle.compute(92): signed/unsigned mismatch, unsigned assumed
+  api=14 insize=2089 outsize=3625 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3625 outsize=5341 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3601 outsize=5101 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+
+Quitting shader compiler process
