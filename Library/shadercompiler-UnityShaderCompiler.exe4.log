@@ -1,9 +1,31 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=3923 outsize=1457 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(92): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2165 outsize=1009 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  error: 1 plat 4 at radio1.compute(339): signed/unsigned mismatch, unsigned assumed
-  api=4 insize=8196 outsize=76201 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=2524 outsize=1565 ok=1
+  error: 2 plat 4 at AnchorParticle.compute(25): syntax error: unexpected token 'float'
+  api=4 insize=2232 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler

@@ -1,17 +1,30 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=1537 outsize=1041 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2307 outsize=1145 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=5945 outsize=4453 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2344 outsize=1673 ok=1
 Cmd: compileComputeKernel
-  error: 1 plat 4 at SpawnParticleTransfer.compute(38): integer divides may be much slower, try using uints if possible.
-  error: 1 plat 4 at SpawnParticleTransfer.compute(49): integer modulus may be much slower, try using uints if possible.
-  error: 1 plat 4 at SpawnParticleTransfer.compute(50): integer modulus may be much slower, try using uints if possible.
-  error: 1 plat 4 at SpawnParticleTransfer.compute(51): integer divides may be much slower, try using uints if possible.
-  error: 1 plat 4 at SpawnParticleTransfer.compute(53): implicit truncation of vector type
-  error: 1 plat 4 at SpawnParticleTransfer.compute(54): implicit truncation of vector type
-  error: 1 plat 4 at SpawnParticleTransfer.compute(55): implicit truncation of vector type
-  api=4 insize=1432 outsize=969 ok=1
+  error: 2 plat 4 at AnchorParticle.compute(81): 'min': no matching 3 parameter intrinsic function; Possible intrinsic functions are: min(float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint, float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint)
+  api=4 insize=2354 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=4 insize=2524 outsize=1317 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2353 outsize=1669 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler

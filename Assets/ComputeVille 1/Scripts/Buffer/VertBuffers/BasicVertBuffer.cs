@@ -9,12 +9,14 @@ public class BasicVertBuffer : MeshVertBuffer {
   struct Vert{
     public Vector3 pos;
     public Vector3 nor;
+    public Vector3 tan;
+    public Vector3 col;
     public Vector2 uv;
   };
 
 
   public override void SetStructSize(){
-    structSize = 3+3+2;
+    structSize = 3+3+3+3+2;
   }
 
   public override void SetOriginalValues(){

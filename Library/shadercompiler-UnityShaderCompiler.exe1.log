@@ -1,13 +1,68 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  error: 1 plat 4 at TubeTrailTransfer.compute(98): integer divides may be much slower, try using uints if possible.
-  error: 1 plat 4 at TubeTrailTransfer.compute(100): integer modulus may be much slower, try using uints if possible.
-  error: 1 plat 4 at TubeTrailTransfer.compute(101): integer divides may be much slower, try using uints if possible.
-  error: 1 plat 4 at TubeTrailTransfer.compute(102): integer modulus may be much slower, try using uints if possible.
-  api=4 insize=3167 outsize=4225 ok=1
+  error: 2 plat 4 at (0): Did not find shader kernel 'CSMain' to compile
+  api=4 insize=1537 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=3692 outsize=5989 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(92): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2165 outsize=1009 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  error: 1 plat 4 at ../Chunks/interlockedAddFunctions.cginc(109): integer modulus may be much slower, try using uints if possible.
-  api=4 insize=2744 outsize=3677 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2326 outsize=1953 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2340 outsize=1633 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler

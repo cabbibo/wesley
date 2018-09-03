@@ -1,13 +1,64 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  error: 1 plat 4 at ../Chunks/interlockedAddFunctions.cginc(109): integer modulus may be much slower, try using uints if possible.
-  api=4 insize=2744 outsize=1441 ok=1
+  api=4 insize=1537 outsize=1041 ok=1
 Cmd: compileComputeKernel
-  error: 1 plat 4 at RibbonTransfer.compute(99): integer divides may be much slower, try using uints if possible.
-  error: 1 plat 4 at RibbonTransfer.compute(100): integer divides may be much slower, try using uints if possible.
-  error: 1 plat 4 at RibbonTransfer.compute(102): integer modulus may be much slower, try using uints if possible.
-  error: 1 plat 4 at RibbonTransfer.compute(103): integer modulus may be much slower, try using uints if possible.
-  api=4 insize=2885 outsize=3741 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(92): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2163 outsize=1813 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=1007 outsize=1037 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2307 outsize=1109 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler

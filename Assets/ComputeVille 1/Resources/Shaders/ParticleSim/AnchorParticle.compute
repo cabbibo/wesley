@@ -19,6 +19,8 @@ float4x4 transform;
     float3 pos;
     float3 vel;
     float3 nor;
+    float3 tangent;
+    float3 col;
     float2 uv;
     float debug;
   };
@@ -27,6 +29,8 @@ float4x4 transform;
   struct Anchor {
     float3 pos;
     float3 nor;
+    float3 tangent;
+    float3 col;
     float2 uv;
 
   };
@@ -72,10 +76,12 @@ float3 RepelForce(float3 pos){
   float3 force = float3(0,0,0);
   for( int i = 0; i < _RepellerCount;i++){
     float3 dif = repellerBuffer[i].pos - pos;
-    float l = length(dif);
-    dif = normalize(dif);
-    force -= dif * lerp(_MinForce,_MaxForce, clamp(1+(l-_MaxDist)/(_MinDist-_MaxDist),0,1));
 
+    float l = length(dif);
+    if( l > 0.000000001 ){
+      dif = normalize(dif);
+      force -= dif* min( .01 / (l*l*l*l) , .3);//* lerp(_MinForce,_MaxForce, clamp(1+(l-_MaxDist)/(_MinDist-_MaxDist),0,1));
+    }
   }
 
   return force;
@@ -103,13 +109,16 @@ void CSMain (uint threadID : SV_GroupIndex, uint3 u3GroupID : SV_GroupID, uint3 
 
      //force *= .1;
 
-      float dampening = .9;//.99999;// - vert.life * .01;
+     force *= .01;
+      float dampening = .94;//.99999;// - vert.life * .01;
      vert.vel += force;// * _DT * _DT;
      vert.pos += vert.vel;// * _DT;
      vert.vel *= dampening;
 
     // vert.pos = anchor.pos;
      vert.nor = anchor.nor;
+     vert.col = anchor.col;
+     vert.tangent = anchor.tangent;
 
 
     //vert.pos = float3( (hash(float(pID))-.5) * 2, 1.3, (hash(float(pID)*100)-.5) * 2);

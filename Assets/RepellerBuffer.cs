@@ -19,7 +19,7 @@ public class RepellerBuffer : FloatBuffer {
   }
 
   void SetPositions(){
-        for( int i = 0; i < count; i++ ){
+    for( int i = 0; i < count; i++ ){
       values[i*3+0]=repellers[i].transform.position.x;
       values[i*3+1]=repellers[i].transform.position.y;
       values[i*3+2]=repellers[i].transform.position.z;

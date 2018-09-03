@@ -29,9 +29,12 @@
     float3 pos;
     float3 vel;
     float3 nor;
+    float3 tangent;
+    float3 col;
     float2 uv;
     float debug;
   };
+
 
 
 
@@ -46,6 +49,7 @@
           float4 pos      : SV_POSITION;
           float3 nor      : TEXCOORD0;
           float3 worldPos : TEXCOORD1;
+          float3 col      : TEXCOORD6;
           float3 eye      : TEXCOORD2;
           float3 debug    : TEXCOORD3;
           float2 uv       : TEXCOORD4;
@@ -66,10 +70,11 @@
 
         	Vert v = _vertBuffer[triID];
        		o.worldPos = v.pos;///* .001/(.1+length(v.debug));//*(1/(.1+max(length(v.debug),0)));//mul( worldMat , float4( v.pos , 1.) ).xyz;
-	        o.debug =float3(float(id)/1000000,1,0);
+	        o.debug =v.vel;//float3(float(id)/1000000,1,0);
 	        o.eye = _WorldSpaceCameraPos - o.worldPos;
           o.nor =normalize( v.nor);//fPos;
           o.uv = v.uv;
+          o.col = v.col;
 
 	        o.pos = mul (UNITY_MATRIX_VP, float4(o.worldPos,1.0f));
 
@@ -84,7 +89,7 @@
 
       //Pixel function returns a solid color for each point.
       float4 frag (varyings v) : COLOR {
-      		float3 col = normalize(v.nor) * .5 + .5;
+      		float3 col = v.col * (1+10*length(v.debug));//*(normalize(v.debug) *length(v.debug) * .5 + .5);
 
 
           //col =  sin(v.uv.x*100) + sin(v.uv.y*100);

@@ -12,14 +12,17 @@ public class LinkBufferToPhysics : MonoBehaviour {
 
 	// Use this for initialization
 	void OnEnable() {
+    print("hi");
     physics.OnBeforeDispatch += SetBuffer;
 	}
 
   void OnDisable(){
+    print("nooo");
     physics.OnBeforeDispatch -= SetBuffer;
   }
 	
   void SetBuffer( ComputeShader shader , int kernel ){
+//    print("hmmmm");
     shader.SetBuffer( kernel , name , buffer._buffer );
     shader.SetInt(countName,buffer.count);
   }

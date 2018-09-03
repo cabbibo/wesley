@@ -1,10 +1,55 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=2792 outsize=2721 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(92): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2163 outsize=1001 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=3923 outsize=1565 ok=1
+  error: 2 plat 4 at AnchorParticle.compute(81): syntax error: unexpected token 'dif'
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2343 outsize=0 ok=0
 Cmd: compileComputeKernel
-  api=4 insize=3313 outsize=45805 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(96): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2352 outsize=1669 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=5018 outsize=781 ok=1
+  error: 1 plat 4 at AnchorParticle.compute(98): signed/unsigned mismatch, unsigned assumed
+  api=4 insize=2397 outsize=1129 ok=1
+Cmd: initializeCompiler

@@ -17,8 +17,8 @@ public class ProceduralMeshRender : ProceduralRender {
   }
 
   public override void Render(){
-    print( buffer.count);
-    print( tBuffer.count);
+//    print( buffer.count);
+//    print( tBuffer.count);
     material.SetPass(0);
     material.SetBuffer("_vertBuffer", buffer._buffer);
     material.SetBuffer("_triBuffer", tBuffer._buffer);
